@@ -71,7 +71,7 @@ the Ansible playbooks. Check out the template for the complete list of parameter
 
 **CoolStore Demo**
 
-Demo repository: https://github.com/jbossdemocentral/coolstore-microservice
+Demo repository: https://github.com/aymankhateeb/coolstore-microservice
 
 | Playbook                                                      | Description                                                             | Memory     | CPU     |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|------------|---------|
@@ -109,7 +109,7 @@ $ ansible-playbook playbooks/coolstore/msa-min.yml -e "github_ref=ocp-3.11 ephem
 | `ephemeral`          | false     | If set to true, all pods will be deployed without persistent storage                                                   |
 | `maven_mirror_url`   | false     | Maven repository for Java S2I builds. If empty, Sonatype Nexus gets deployed and used                                  |
 | `github_account`     | master    | GitHub account to deploy from in forked: https://github.com/[github-account]/coolstore-microservice                    |
-| `github_ref`         | master    | GitHub branch to deploy from: https://github.com/jbossdemocentral/coolstore-microservice                               |
+| `github_ref`         | master    | GitHub branch to deploy from: https://github.com/aymankhateeb/coolstore-microservice                               |
 | `project_admin`      | none      | OpenShift user to be assigned as the project admin. Default is the logged-in user                                      |
 | `deploy_guides`      | true      | Deploy demo guides as a pod in the CI/CD project                                                                       |
 

@@ -13,11 +13,11 @@ parameters:
   required: true
 - displayName: CoolStore Demo Name
   description: The name of the coolstore demo to deploy e.g. msa-cicd-eap-full, msa-cicd-eap-min, msa-full, msa-min
-  value: msa-min
+  value: msa-cicd-eap-full
   name: DEMO_NAME
   required: true
 - displayName: CoolStore GitHub Account
-  value: jbossdemocentral
+  value: aymankhateeb
   name: COOLSTORE_GITHUB_ACCOUNT
   required: true
 - displayName: CoolStore GitHub Ref
